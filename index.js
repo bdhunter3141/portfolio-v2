@@ -1,6 +1,7 @@
 $(function () {
-  console.log("All ready to go.")
-  
+
+// PARTICLES --------------------------------
+
   particlesJS("particles-js", { 
     "particles": { 
       "number": { 
@@ -111,4 +112,13 @@ $(function () {
       "retina_detect": true 
     }
   ); 
+
+  // HEADER SPACING ----------------------------------------
+
+  function headerMargin() {
+    let headerHeight = $("header").height()
+    $(".header-padding").css("height", headerHeight)
+  }
+  headerMargin()
+  $(window).resize(headerMargin)
 }); 
