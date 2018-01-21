@@ -6,7 +6,7 @@ header {
   grid-template-columns: repeat(1fr, 3);
   grid-template-rows: repeat(1fr, 3);
   grid-template-areas: "header-text . nav-links" ". hero-text .";
-  background: linear-gradient(to bottom, #232741, #394072);
+  background: linear-gradient(to bottom, #232741, #4450a5);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -46,8 +46,8 @@ header {
 
 /* About */
 .sky {
-  height: 400px;
-  background: linear-gradient(to bottom, #394072, #2b80ee); }
+  height: 500px;
+  background: linear-gradient(to bottom, #4450a5, transparent), radial-gradient(circle at bottom right, yellow, #2b80ee, #4450a5); }
 
 html {
   font-size: 112.5%;
