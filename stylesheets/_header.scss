@@ -5,7 +5,8 @@ header {
   grid-template-columns: repeat(1fr, 3);
   grid-template-rows: repeat(1fr, 3);
   grid-template-areas: "header-text . nav-links"
-                       ". hero-text .";
+                       ". hero-text ."
+                       ". . .";
   background: linear-gradient(to bottom, #232741, #4450a5); 
   position: absolute; 
   width: 100%; 

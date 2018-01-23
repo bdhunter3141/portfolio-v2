@@ -2,6 +2,12 @@
 
 .sky {
   height: 500px;
+  display: grid;
+  grid-template-columns: repeat(1fr, 4);
+  grid-template-rows: repeat(1fr, 3);
+  grid-template-areas: ". . . ."
+                       ". greeting . ."
+                       ". . . .";
   background: linear-gradient(to bottom, #4450a5, transparent),
     radial-gradient(
       circle at bottom right,
@@ -9,6 +15,12 @@
       #2b80ee, 
       #4450a5
     );
+}
+
+.greeting {
+  grid-area: greeting;
+  color: #fff;
+  font-size: $scale1;
 }
 
 .about-wrapper {
