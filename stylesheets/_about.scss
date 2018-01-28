@@ -147,6 +147,24 @@
   margin: auto;
 }
 
-.skills-wrapper {
+#skills-wrapper {
   margin-top: 50px;
+  background: #eee;
+}
+
+.skills-title {
+  padding-top: 65px;
+  width: 80%;
+  margin: auto;
+}
+
+.skills>div {
+  margin: 30px 10% 0 10%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skills>div>span {
+  margin: 30px;
 }
