@@ -22,6 +22,11 @@
   font-size: $scale1;
   margin-top: 150px;
   margin-bottom: 100px;
+
+  h2 {
+    margin: 0;
+    letter-spacing: 0.1em;
+  }
 }
 
 /* Clouds */
@@ -149,20 +154,29 @@
 
 #skills-wrapper {
   margin-top: 50px;
-  background: #eee;
+  padding: 35px 20px;
+  background: linear-gradient(to bottom, #fff 20%, $primary-text)
 }
 
 .skills-title {
-  padding-top: 65px;
-  width: 80%;
-  margin: auto;
+  padding: 50px 50px 0 50px;
+  margin: 0 15% 0 15%;
+  background-color: #eee;
+  
+  h2 {
+      border-bottom: solid 5px $primary-text;
+      margin: 0;
+      padding-bottom: 10px;
+  }
 }
 
 .skills>div {
-  margin: 30px 10% 0 10%;
+  margin: 0 15% 0 15%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  background-color: #eee;
+  padding: 20px 50px;
 }
 
 .skills>div>span {
