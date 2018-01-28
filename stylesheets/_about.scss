@@ -1,13 +1,12 @@
 /* About */
 
-.sky {
-  height: 500px;
+#sky {
   display: grid;
   grid-template-columns: repeat(1fr, 4);
-  grid-template-rows: repeat(1fr, 3);
-  grid-template-areas: ". . . ."
+  grid-template-rows: repeat(1fr, 4);
+  grid-template-areas: 
                        ". greeting . ."
-                       ". . . .";
+                       "cloud-area cloud-area cloud-area cloud-area";
   background: linear-gradient(to bottom, #4450a5, transparent),
     radial-gradient(
       circle at bottom right,
@@ -21,8 +20,125 @@
   grid-area: greeting;
   color: #fff;
   font-size: $scale1;
+  margin-top: 150px;
+  margin-bottom: 100px;
 }
 
-.about-wrapper {
+/* Clouds */
 
+.cloud-divider {
+  width: 100vw;
+  grid-area: cloud-area;
+  height: 250px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+.cloud {
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.cloud-1 {
+  height: 22vw;
+  width: 22vw;
+  left: -11vw;
+  bottom: -11vw;
+}
+
+.cloud-2 {
+  height: 16vw;
+  width: 16vw;
+  bottom: -8vw;
+  left: 4vw;
+}
+
+.cloud-3 {
+  height: 24vw;
+  width: 24vw;
+  bottom: -14vw;
+  left: 14vw;
+}
+
+.cloud-4 {
+  height: 16vw;
+  width: 16vw;
+  bottom: -8vw;
+  left: 28vw;
+}
+
+.cloud-5 {
+  height: 10vw;
+  width: 10vw;
+  left: 37vw;
+  bottom: -5vw;
+}
+
+.cloud-6 {
+  height: 8vw;
+  width: 8vw;
+  left: 42vw;
+  bottom: -4vw;
+}
+
+.cloud-7 {
+  height: 12vw;
+  width: 12vw;
+  left: 44vw;
+  bottom: -6vw;
+}
+
+.cloud-8 {
+  height: 8vw;
+  width: 8vw;
+  right: 41vw;
+  bottom: -4vw;
+}
+
+.cloud-9 {
+  height: 16vw;
+  width: 16vw;
+  right: 28vw;
+  bottom: -8vw;
+}
+
+.cloud-10 {
+  height: 14vw;
+  width: 14vw;
+  right: 22vw;
+  bottom: -7vw;
+}
+
+.cloud-11 {
+  height: 20vw;
+  width: 20vw;
+  right: 12vw;
+  bottom: -10vw;
+}
+
+.cloud-12 {
+  height: 18vw;
+  width: 18vw;
+  right: 5vw;
+  bottom: -9vw;
+}
+
+.cloud-13 {
+  height: 24vw;
+  width: 24vw;
+  right: -12vw;
+  bottom: -12vw;
+}
+
+/* About Section */
+
+.about-wrapper {
+  width: 70%;
+  margin: auto;
+}
+
+.skills-wrapper {
+  margin-top: 50px;
 }
