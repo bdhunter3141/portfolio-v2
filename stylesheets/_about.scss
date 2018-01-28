@@ -134,8 +134,16 @@
 
 /* About Section */
 
+.about {
+  display: flex;
+}
+
+.about-img {
+  position: relative;
+}
+
 .about-wrapper {
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
 

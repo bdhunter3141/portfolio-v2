@@ -152,8 +152,14 @@ header {
   bottom: -12vw; }
 
 /* About Section */
+.about {
+  display: flex; }
+
+.about-img {
+  position: relative; }
+
 .about-wrapper {
-  width: 70%;
+  width: 80%;
   margin: auto; }
 
 .skills-wrapper {
@@ -161,7 +167,8 @@ header {
 
 html {
   font-size: 112.5%;
-  font-family: 'Inter UI', sans-serif; }
+  font-family: 'Inter UI', sans-serif;
+  color: #373d3f; }
 
 h1 {
   font-family: 'Abril Fatface', cursive; }
