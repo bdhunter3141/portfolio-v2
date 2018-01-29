@@ -168,12 +168,14 @@ header {
 #skills-wrapper {
   margin-top: 50px;
   padding: 35px 20px;
-  background: linear-gradient(to bottom, #fff 20%, #373d3f); }
+  background: linear-gradient(#fff 25%, #373d3f 25%, #373d3f 100%); }
 
 .skills-title {
   padding: 50px 50px 0 50px;
   margin: 0 15% 0 15%;
-  background-color: #eee; }
+  background-color: #eee;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; }
   .skills-title h2 {
     border-bottom: solid 5px #373d3f;
     margin: 0;
@@ -185,7 +187,9 @@ header {
   justify-content: space-around;
   flex-wrap: wrap;
   background-color: #eee;
-  padding: 20px 50px; }
+  padding: 20px 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
 
 .skills > div > span {
   margin: 30px; }
